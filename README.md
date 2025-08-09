@@ -81,6 +81,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Perfect for cozy servers, anime communities, pet lovers, and anyone who wants a bit of joy in their day.*
 
-[🔗 Website](https://github.com/ItsAlexIK/MiauDex-Web) • [📱 Invite Bot](https://discord.com/oauth2/authorize?client_id=1388169772298145963) • [💬 Support](https://discord.gg/AzYJhjMy4E)
+[🔗 Website](https://https://itsalexik.github.io/MiauDex-Web) • [📱 Invite Bot](https://discord.com/oauth2/authorize?client_id=1388169772298145963) • [💬 Support](https://discord.gg/AzYJhjMy4E)
 
 </div>
