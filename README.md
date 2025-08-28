@@ -91,7 +91,7 @@ MiauDex is a global bot 🌍. We love community contributions! Help make it acce
 | ![NO](https://flagcdn.com/16x12/no.png) Norwegian  | [Kf637](https://github.com/Kf637) | ✅ |
 | ![DK](https://flagcdn.com/16x12/dk.png) Danish     |             | ❌ |
 | ![HR](https://flagcdn.com/16x12/hr.png) Croatian   |             | ❌ |
-| ![IT](https://flagcdn.com/16x12/it.png) Italian    |             | ❌ |
+| ![IT](https://flagcdn.com/16x12/it.png) Italian    | [Zer0Two](https://github.com/NotZer0Two) | ✅ |
 | ![HU](https://flagcdn.com/16x12/hu.png) Hungarian  |             | ❌ |
 
 💡 **Want to contribute a translation?**  
