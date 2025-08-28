@@ -95,7 +95,7 @@ MiauDex is a global bot 🌍. We love community contributions! Help make it acce
 | ![HU](https://flagcdn.com/16x12/hu.png) Hungarian  |             | ❌ |
 
 💡 **Want to contribute a translation?**  
-Join our [Discord server](https://discord.gg/AzYJhjMy4E) and open a **support ticket** with your translation.  
+Join our [Discord server](https://discord.gg/AzYJhjMy4E) and open a **support ticket**.  
 Every contribution helps make MiauDex more fun and accessible for everyone! 🐾
 
 ---
