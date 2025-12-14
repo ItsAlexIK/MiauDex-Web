@@ -22,7 +22,7 @@
       <div class="content">
         <div class="highlight">
           <p><strong>Effective Date:</strong> June 27, 2025</p>
-          <p><strong>Last Updated:</strong> August 9, 2025</p>
+          <!-- <p><strong>Last Updated:</strong> December 14, 2025</p> will update when released -->
         </div>
 
         <p>
@@ -50,6 +50,11 @@
             <td>Server (Guild) ID</td>
             <td>Bot functionality and server-specific features</td>
             <td>While bot is in server</td>
+          </tr>
+          <tr>
+            <td>Language Preference (Locale)</td>
+            <td>Provide bot responses in your preferred language</td>
+            <td>Until account deletion requested</td>
           </tr>
           <tr>
             <td>Cat Collection Data</td>
@@ -84,6 +89,7 @@
           <li>Maintaining your virtual collection and progress</li>
           <li>Enabling community features like leaderboards</li>
           <li>Processing trades between users</li>
+          <li>Delivering bot messages and responses in your preferred language</li>
         </ul>
 
         <h3>2.2 Service Improvement</h3>
@@ -91,6 +97,7 @@
           <li>Analyzing usage patterns to improve bot features</li>
           <li>Identifying and fixing bugs</li>
           <li>Developing new features based on user needs</li>
+          <li>Improving localization and language support</li>
         </ul>
 
         <h3>2.3 Communication</h3>
@@ -98,17 +105,30 @@
           <li>Sending optional reminders (if enabled)</li>
           <li>Providing support and responding to issues</li>
           <li>Important announcements about the service</li>
+          <li>Sending thank you messages via Discord DM after successful votes on bot listing sites</li>
         </ul>
 
-        <h2>3. Data Sharing and Disclosure</h2>
+        <h2>3. Language Preferences</h2>
+        <p>
+          MiauDex automatically detects and stores your Discord language preference (locale code) to provide you with bot responses in your preferred language. This data is:
+        </p>
+        <ul>
+          <li>Automatically collected from your Discord client settings</li>
+          <li>Stored in our database associated with your Discord User ID</li>
+          <li>Used solely to determine which language to display bot messages in</li>
+          <li>Updated automatically when you change your Discord language settings</li>
+          <li>Deleted when you request account deletion</li>
+        </ul>
 
-        <h3>3.1 We Do Not Sell Your Data</h3>
+        <h2>4. Data Sharing and Disclosure</h2>
+
+        <h3>4.1 We Do Not Sell Your Data</h3>
         <p>
           We never sell, rent, or trade your personal information to third
           parties.
         </p>
 
-        <h3>3.2 Limited Sharing</h3>
+        <h3>4.2 Limited Sharing</h3>
         <p>We may share data only in these specific cases:</p>
         <ul>
           <li>
@@ -129,7 +149,7 @@
           </li>
         </ul>
 
-        <h2>4. Data Security</h2>
+        <h2>5. Data Security</h2>
         <p>We implement appropriate security measures to protect your data:</p>
         <ul>
           <li>Secure database storage with regular backups</li>
@@ -137,9 +157,9 @@
           <li>Regular security updates and monitoring</li>
         </ul>
 
-        <h2>5. Your Rights and Choices</h2>
+        <h2>6. Your Rights and Choices</h2>
 
-        <h3>5.1 Access and Control</h3>
+        <h3>6.1 Access and Control</h3>
         <ul>
           <li>
             <strong>View Your Data:</strong> Use `/profile` to see your stored
@@ -154,39 +174,53 @@
             reminders
           </li>
           <li><strong>Data Export:</strong> Request a copy of your data</li>
+          <li><strong>Language Settings:</strong> Your language preference is automatically synchronized with your Discord settings</li>
         </ul>
 
-        <h3>5.2 Leaderboard Privacy</h3>
+        <h3>6.2 Leaderboard Privacy</h3>
         <p>
           You can control whether you appear on public leaderboards through the
           bot's settings. This is disabled by default.
         </p>
 
-        <h2>6. Children's Privacy</h2>
+        <h2>7. Children's Privacy</h2>
         <p>
           MiauDex is designed to be family-friendly. However, users under 13
           should have parental permission to use Discord and our bot, in
           accordance with Discord's Terms of Service.
         </p>
 
-        <h2>7. Third-Party Services</h2>
+        <h2>8. Third-Party Services</h2>
 
-        <h3>7.1 Discord</h3>
+        <h3>8.1 Discord</h3>
         <p>
           Our bot operates on Discord's platform and is subject to
           <a href="https://discord.com/privacy" style="color: #667eea"
             >Discord's Privacy Policy</a
-          >.
+          >. We collect language preferences from your Discord client settings.
         </p>
 
-        <h3>7.2 Cat Images</h3>
+        <h3>8.2 Cat Images</h3>
         <p>
           Cat images are sourced from third-party APIs. We do not control the
           content of these images but make every effort to ensure they are
           appropriate.
         </p>
 
-        <h2>8. Data Retention</h2>
+        <h3>8.3 Bot Voting Services</h3>
+        <p>
+          When you vote for MiauDex on bot listing websites (such as top.gg), these services notify our bot of your vote. We use this information solely to:
+        </p>
+        <ul>
+          <li>Grant premium features as rewards</li>
+          <li>Send you a thank you message via Discord DM</li>
+          <li>Track voting statistics for service improvement</li>
+        </ul>
+        <p>
+          These third-party services have their own privacy policies that govern how they handle your information. We recommend reviewing their policies before voting.
+        </p>
+
+        <h2>9. Data Retention</h2>
         <ul>
           <li>
             <strong>Active Users:</strong> Data retained while you actively use
@@ -202,14 +236,14 @@
           </li>
         </ul>
 
-        <h2>9. International Users</h2>
+        <h2>10. International Users</h2>
         <p>
-          MiauDex is operated from [Poland]. By using the bot, you consent
+          MiauDex is operated from Poland. By using the bot, you consent
           to the transfer and processing of your data in accordance with this
           Privacy Policy.
         </p>
 
-        <h2>10. Changes to This Policy</h2>
+        <h2>11. Changes to This Policy</h2>
         <p>We may update this Privacy Policy from time to time. We will:</p>
         <ul>
           <li>Notify users of significant changes via our support server</li>
@@ -217,7 +251,7 @@
           <li>Provide 30 days notice for major changes</li>
         </ul>
 
-        <h2>11. California Privacy Rights (CCPA)</h2>
+        <h2>12. California Privacy Rights (CCPA)</h2>
         <p>
           California residents have additional rights under the California
           Consumer Privacy Act:
@@ -229,7 +263,7 @@
           <li>Right to non-discrimination for exercising these rights</li>
         </ul>
 
-        <h2>12. European Privacy Rights (GDPR)</h2>
+        <h2>13. European Privacy Rights (GDPR)</h2>
         <p>
           European users have rights under the General Data Protection
           Regulation:
@@ -243,7 +277,7 @@
         </ul>
 
         <div class="contact">
-          <h2>13. Contact Us</h2>
+          <h2>14. Contact Us</h2>
           <p>For privacy-related questions or to exercise your rights:</p>
           <ul>
             <li>
@@ -264,7 +298,7 @@
         </div>
 
         <div class="last-updated">
-          <p><strong>Last Updated:</strong> August 9, 2025</p>
+          <!-- <p><strong>Last Updated:</strong> December 14, 2025</p> will update when released -->
         </div>
       </div>
     </div>
