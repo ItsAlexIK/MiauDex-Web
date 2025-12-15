@@ -31,8 +31,15 @@
 ### 📊 **Community Features**
 - Server leaderboards for top collectors
 - Streak system for daily collection
+- Vote rewards with instant DM notifications
 - Vote reminders and tracking
 - Premium features for supporters
+
+### 🌍 **Multilingual Support**
+- Automatic language detection from your Discord settings
+- Bot messages in your preferred language
+- Support for multiple languages (see Translations section below)
+- Seamless localized experience across all features
 
 ### ⚡ **Technical Excellence**
 - Full slash command support
@@ -40,6 +47,7 @@
 - Clean, responsive UI
 - Lightning-fast performance
 - Mobile-friendly displays
+- Automatic locale synchronization
 
 ## 🚀 Quick Start
 
@@ -54,6 +62,7 @@
 - 🎮 **Gaming Communities** - Fun collection mechanics
 - 📚 **Study/Work Servers** - Light, stress-relieving content
 - 👥 **General Communities** - Universal appeal of cute cats
+- 🌍 **International Servers** - Multi-language support for global communities
 
 ## 🆘 Support
 
@@ -61,6 +70,7 @@ Need help? We've got you covered!
 
 - 💬 **Support Server**: [Join our Discord](https://discord.gg/AzYJhjMy4E)
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ItsAlexIK/MiauDex-Web/issues)
+- 📧 **Privacy Requests**: Contact us via Discord with subject "Privacy Request"
 
 ## 📜 License
 
@@ -70,6 +80,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐱 **The Cat API** for providing beautiful cat images
 - 💙 **Discord.js** for the excellent library
+- 🏆 **top.gg** for bot listing and voting system
 - 🎨 **Our community** for feedback and suggestions
 - ❤️ **Cat lovers everywhere** for making this bot meaningful
 
