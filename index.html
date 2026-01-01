@@ -1,119 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MiauDex - The Ultimate Cat Collector Bot</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <script src="index.js"></script>
+  </head>
+  <body>
     <header>
-        <nav class="container">
-            <div class="logo">
-                <i class="fas fa-cat"></i>
-                MiauDex
-            </div>
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#support">Support</a></li>
-            </ul>
-        </nav>
+      <nav class="container">
+        <div class="logo">
+          <i class="fas fa-cat"></i>
+          MiauDex
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h1 class="floating">✨ MiauDex</h1>
-            <p>The Ultimate Cat Collector Bot for Your Discord Server!</p>
-            <div class="cta-buttons">
-                <a href="https://discord.com/oauth2/authorize?client_id=1388169772298145963" class="btn btn-primary">
-                    <i class="fab fa-discord"></i>
-                    Invite to Server
-                </a>
-                <a href="#features" class="btn btn-secondary">
-                    <i class="fas fa-info-circle"></i>
-                    Learn More
-                </a>
-            </div>
+      <div class="container">
+        <h1 class="floating">✨ MiauDex</h1>
+        <p>The Ultimate Cat Collector Bot for Your Discord Server!</p>
+        <p class="tagline">
+          Looking to add something fun, unique, and beautifully crafted to your
+          community?
+        </p>
+        <div class="cta-buttons">
+          <a
+            href="https://discord.com/oauth2/authorize?client_id=1388169772298145963"
+            class="btn btn-primary"
+          >
+            <i class="fab fa-discord"></i>
+            Invite to Server
+          </a>
+          <a href="#features" class="btn btn-secondary">
+            <i class="fas fa-info-circle"></i>
+            Learn More
+          </a>
         </div>
+      </div>
+    </section>
+
+    <section class="screenshots" id="screenshots">
+      <div class="container">
+        <h2>See MiauDex in Action</h2>
+        <p class="screenshots-subtitle">
+          Beautiful interface, stunning cat images, and engaging gameplay
+        </p>
+        <div class="screenshots-grid">
+          <div
+            class="screenshot-card"
+            onclick="openModal('https://i.ibb.co/DyDWLw4/1.png')"
+          >
+            <img
+              src="https://i.ibb.co/DyDWLw4/1.png"
+              alt="MiauDex Cat Collection"
+            />
+          </div>
+          <div
+            class="screenshot-card"
+            onclick="openModal('https://i.ibb.co/vvskLZQm/2.png')"
+          >
+            <img
+              src="https://i.ibb.co/vvskLZQm/2.png"
+              alt="MiauDex Gallery View"
+            />
+          </div>
+          <div
+            class="screenshot-card"
+            onclick="openModal('https://i.ibb.co/Vc2XCGsV/4.png')"
+          >
+            <img
+              src="https://i.ibb.co/Vc2XCGsV/4.png"
+              alt="MiauDex Trading System"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="features" id="features">
-        <div class="container">
-            <h2>Why Choose MiauDex?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🐾</div>
-                    <h3>Collect Unique Cats</h3>
-                    <p>Discover beautiful, unique cats with stunning images. Each cat is special and waiting to join your collection!</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📸</div>
-                    <h3>Personal Gallery</h3>
-                    <p>Name your cats and showcase them in your personal gallery. Sort by rarity, date, or name to organize your collection.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎲</div>
-                    <h3>Daily Collection</h3>
-                    <p>Collect a new cat every day! Each cat is randomly assigned a rarity - you never know what you'll get next.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Safe Trading</h3>
-                    <p>Trade cats with other users safely and easily. Build your dream collection or show off your rarest finds!</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Built for performance with clean UI, persistent storage, and full slash command support.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🛠️</div>
-                    <h3>Actively Developed</h3>
-                    <p>Regular updates and new features from a passionate developer who loves cats and Discord bots!</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2>Why Choose MiauDex?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🐱</div>
+            <h3>Collect a New Cat Every Day</h3>
+            <p>
+              Each cat is randomly assigned a rarity — from common fluffballs to
+              ultra-rare beauties. Users never know what they'll get next. It's
+              part of the charm!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📸</div>
+            <h3>Personal Gallery</h3>
+            <p>
+              Name your cats and showcase them in your personal gallery. Sort by
+              rarity, date, or name to organize your dream collection!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌈</div>
+            <h3>Rarity System</h3>
+            <p>
+              Cats come in multiple tiers like House Cat, Backyard Cat, Street
+              Cat, and many more! Each rarity has its own color, emoji, and
+              special vibe.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3>Safe Trading</h3>
+            <p>
+              Members can safely and easily trade cats they don't want for ones
+              they love. Build your dream collection — or just flex your rarest
+              finds!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Lightning Fast</h3>
+            <p>
+              Clean UI, persistent storage, and full slash command support.
+              Lightweight, easy to set up, and built for performance!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🛠️</div>
+            <h3>Actively Developed</h3>
+            <p>
+              Regular updates and new features from a passionate developer who
+              loves cats and Discord bots!
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="language-section" id="languages">
+      <div class="container">
+        <h2>🌍 Automatic Multilingual Support</h2>
+        <p class="language-subtitle">No Setup Required!</p>
+        <p class="language-description">
+          MiauDex automatically translates messages, commands, embeds, and
+          buttons into your language based on your Discord settings. Perfect for
+          international communities!
+        </p>
+        <div class="languages-grid">
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/gb.png"
+              alt="UK Flag"
+              class="flag"
+            />
+            <div class="name">English</div>
+          </div>
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/pl.png"
+              alt="Polish Flag"
+              class="flag"
+            />
+            <div class="name">Polish</div>
+          </div>
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/fr.png"
+              alt="French Flag"
+              class="flag"
+            />
+            <div class="name">French</div>
+          </div>
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/it.png"
+              alt="Italian Flag"
+              class="flag"
+            />
+            <div class="name">Italian</div>
+          </div>
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/no.png"
+              alt="Norwegian Flag"
+              class="flag"
+            />
+            <div class="name">Norwegian</div>
+          </div>
+          <div class="language-card">
+            <img
+              src="https://flagcdn.com/w80/nl.png"
+              alt="Dutch Flag"
+              class="flag"
+            />
+            <div class="name">Dutch</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="perfect-for">
+      <div class="container">
+        <h2>🎯 Perfect For These Communities</h2>
+        <div class="perfect-grid">
+          <div class="perfect-card">
+            <div class="icon">🏠</div>
+            <h3>Cozy Servers</h3>
+            <p>Add warmth and daily interaction</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">🎌</div>
+            <h3>Anime Communities</h3>
+            <p>Cute collectibles everyone loves</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">🐕</div>
+            <h3>Pet Lovers</h3>
+            <p>Perfect for cat enthusiasts</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">🎮</div>
+            <h3>Gaming Communities</h3>
+            <p>Fun collection mechanics</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">📚</div>
+            <h3>Study Servers</h3>
+            <p>Light, stress-relieving content</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">🌍</div>
+            <h3>International Servers</h3>
+            <p>Multi-language support</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">🎨</div>
+            <h3>Creative Communities</h3>
+            <p>Inspire with adorable content</p>
+          </div>
+          <div class="perfect-card">
+            <div class="icon">💬</div>
+            <h3>Social Hangouts</h3>
+            <p>Keep members engaged daily</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="support">
-    <footer id="support">
-        <div class="container">
-            <div class="footer-links">
-                <a href="https://discord.gg/AzYJhjMy4E" title="Support Server">
-                    <i class="fab fa-discord"></i>
-                </a>
-                <a href="https://github.com/ItsAlexIK" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <div style="margin: 20px 0;">
-                <a href="terms.html" style="color: #bbb; text-decoration: none; margin: 0 15px;">Terms of Service</a>
-                <a href="privacy.html" style="color: #bbb; text-decoration: none; margin: 0 15px;">Privacy Policy</a>
-            </div>
-            <p>&copy; 2025 ItsAlex. Made with ❤️ for cat lovers everywhere.</p>
-            <p style="opacity: 0.7; margin-top: 10px;">Perfect for cozy servers, anime communities, pet lovers, and anyone who wants joy in their day.</p>
+      <div class="container">
+        <div class="footer-links">
+          <a href="https://discord.gg/AzYJhjMy4E" title="Support Server">
+            <i class="fab fa-discord"></i>
+          </a>
+          <a href="https://github.com/ItsAlexIK" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
+        <div style="margin: 20px 0">
+          <a
+            href="terms.html"
+            style="color: #bbb; text-decoration: none; margin: 0 15px"
+            >Terms of Service</a
+          >
+          <a
+            href="privacy.html"
+            style="color: #bbb; text-decoration: none; margin: 0 15px"
+            >Privacy Policy</a
+          >
+        </div>
+        <p>&copy; 2026 ItsAlex. Made with ❤️ for cat lovers everywhere.</p>
+        <p style="opacity: 0.7; margin-top: 10px">
+          Perfect for cozy servers, anime communities, pet lovers, and anyone
+          who wants a bit of joy in their day.
+        </p>
+      </div>
     </footer>
 
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.background = 'rgba(255, 255, 255, 0.98)';
-            } else {
-                header.style.background = 'rgba(255, 255, 255, 0.95)';
-            }
-        });
-    </script>
-</body>
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="modal-close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+  </body>
 </html>
