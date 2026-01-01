@@ -92,17 +92,18 @@ MiauDex is a global bot 🌍. We love community contributions! Help make it acce
 |----------------|-------------|--------|
 | ![GB](https://flagcdn.com/16x12/gb.png) English    | [ItsAlex](https://github.com/ItsAlexIK) | ✅ |
 | ![PL](https://flagcdn.com/16x12/pl.png) Polish     | [ItsAlex](https://github.com/ItsAlexIK) | ✅ |
-| ![ES](https://flagcdn.com/16x12/es.png) Spanish    |             | ❌ |
 | ![FR](https://flagcdn.com/16x12/fr.png) French     | [Zer0Two](https://github.com/NotZer0Two) | ✅ |
+| ![IT](https://flagcdn.com/16x12/it.png) Italian    | [Zer0Two](https://github.com/NotZer0Two) | ✅ |
+| ![NO](https://flagcdn.com/16x12/no.png) Norwegian  | [Kf637](https://github.com/Kf637) | ✅ |
+| ![NL](https://flagcdn.com/16x12/nl.png) Dutch  | [Quincy](https://github.com/JustCallMeQuincy) | ✅ |
+| ![ES](https://flagcdn.com/16x12/es.png) Spanish    |             | ❌ |
 | ![DE](https://flagcdn.com/16x12/de.png) German     |             | ❌ |
 | ![RO](https://flagcdn.com/16x12/ro.png) Romanian   |             | ❌ |
 | ![SE](https://flagcdn.com/16x12/se.png) Swedish    |             | ❌ |
 | ![RU](https://flagcdn.com/16x12/ru.png) Russian    |             | ❌ |
 | ![KR](https://flagcdn.com/16x12/kr.png) Korean     |             | ❌ |
-| ![NO](https://flagcdn.com/16x12/no.png) Norwegian  | [Kf637](https://github.com/Kf637) | ✅ |
 | ![DK](https://flagcdn.com/16x12/dk.png) Danish     |             | ❌ |
 | ![HR](https://flagcdn.com/16x12/hr.png) Croatian   |             | ❌ |
-| ![IT](https://flagcdn.com/16x12/it.png) Italian    | [Zer0Two](https://github.com/NotZer0Two) | ✅ |
 | ![HU](https://flagcdn.com/16x12/hu.png) Hungarian  |             | ❌ |
 
 💡 **Want to contribute a translation?**  
